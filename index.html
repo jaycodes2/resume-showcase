@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Showcase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Resume Showcase</a>
+      <ul class="nav-links">
+        <!-- Profiles option removed -->
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <video autoplay muted loop class="background-video">
+      <source src="vid.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-content">
+      <h1>Discover Talented Professionals</h1>
+      <p>Connect with skilled individuals and explore their expertise.</p>
+      <a href="#profiles" class="btn btn-primary">View Profiles</a>
+    </div>
+  </section>
+
+  <!-- Profiles Section -->
+  <section id="profiles" class="container">
+    <h2>Featured Profiles</h2>
+    <div id="profile-grid" class="grid"></div>
+    <div id="loading" class="loading">Loading profiles...</div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Resume Showcase. All rights reserved.</p>
+  </footer>
+</body>
+</html>
